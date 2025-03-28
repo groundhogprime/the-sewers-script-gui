@@ -49,10 +49,10 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Buy Assault Rifle",
+   Name = "Buy AssaultRifle",
    Callback = function()
 local args = {
-    [1] = "Assault Rifle"
+    [1] = "AssaultRifle"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("shared/network@GlobalEvents"):WaitForChild("buyItem"):FireServer(unpack(args))
