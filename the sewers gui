@@ -73,10 +73,10 @@ game:GetService("ReplicatedStorage"):WaitForChild("shared/network@GlobalEvents")
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Buy RatKingPòtion",
+   Name = "Buy KingRatPotion",
    Callback = function()
 local args = {
-    [1] = "RatKingPotion"
+    [1] = "KingRatPotion"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("shared/network@GlobalEvents"):WaitForChild("buyItem"):FireServer(unpack(args))
