@@ -61,10 +61,10 @@ game:GetService("ReplicatedStorage"):WaitForChild("shared/network@GlobalEvents")
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Buy RocketLauncher",
+   Name = "Buy Railgun",
    Callback = function()
 local args = {
-    [1] = "HolidayRocketLauncher"
+    [1] = "Railgun"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("shared/network@GlobalEvents"):WaitForChild("buyItem"):FireServer(unpack(args))
